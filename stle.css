@@ -1,3 +1,6 @@
+body{
+    padding: 50px;
+}
 header{
     padding: 0;
     margin: 0;
@@ -21,17 +24,62 @@ header nav ul li:hover a{
 }
 
 
-header nav {
-    padding: 50px;
 
-}
 .change_langue{
     border: none;
     background: none;
     cursor: pointer;
 }
-.change_langue:hover{
+/*.change_langue:hover{
+
     border: 1px solid violet;
+    
+
+}*/
+main{
+    margin: 24px 0;
+}
+main.benner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.benner > h1{
+font-size: 44px;
+font-weight: bold;
+}
+.benner .summary{
+    margin: 25px 0;
+    
+
+}
+.benner{
+  text-decoration: none;
+  background-color: blueviolet; 
+  padding: 12px 20px;
+  color: aliceblue;
+  border-radius: 8px;
+  font-weight: 500;
+  height: 47px;
+  display: block;
+}
+.benner img{
+
+}
+main .compate{
+    margin: 28px 0;
+}
+main h2{
+    font-size: 26px;
+    font-size: bold;
+}
+main .conten{
+    background: #EDD;
+    max-width: 100%;
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
     
 
 }
