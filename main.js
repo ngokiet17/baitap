@@ -39,32 +39,32 @@ còn lại dưới sẽ là B,C,D*/
 
 
 // các kiểu dữ liệu tròn js
-// kiểu number có 5 dạng
-//- Overiew
-//let a = 5, b = 2.5;  // Khai báo nhiều biến trên cùng dòng
-//let c = 12e-3;  // Số thực dạng khoa học
-//let d = .25;  // Rút gọn cho 0.25
-//let e = 10;  // Viết trên nhiều dòng
+ kiểu number có 5 dạng
+- Overiew
+let a = 5, b = 2.5;   
+let c = 12e-3;  
+let d = .25;   
+let e = 10;  
 
-// -Operators 
-//let x = 5;
-//let y = "Hi " + x;  
+ Operators 
+let x = 5;
+let y = "Hi " + x;  
 
-//-special values
-//let x = NaN;
-//let y = Infinity;
-//typeof x;  
-//typeof(y);  
+special values
+let x = NaN;
+let y = Infinity;
+typeof x;  
+typeof(y);  
 
-//- NaN value
-//let x = 100 / "Apple";
-//isNaN(x);  
+- NaN value
+let x = 100 / "Apple";
+isNaN(x);  
 
-//infinity value
-// let x = 5;
-// let y = 5 / 0;
-// isFinite(x);  
-// isFinite(y);  
+infinity value
+ let x = 5;
+ let y = 5 / 0;
+ isFinite(x);  
+ isFinite(y);  
 
 //number methods
 // let x = 123;
