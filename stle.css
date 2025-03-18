@@ -1,85 +1,120 @@
-body{
-    padding: 50px;
-}
-header{
+header {
     padding: 0;
     margin: 0;
-}
-header nav ul {
+  }
+  header nav ul {
     font-size: 20px;
     font-weight: bold;
     display: flex;
     gap: 25px;
     list-style: none;
-    color: black;
     width: 100%;
     justify-content: end;
-}
-header nav ul li a{
-    text-decoration:none;
-    color: black;
-}
-header nav ul li:hover a{
+  }
+  header nav ul li a {
+    text-decoration: none;
+    color: #000;
+  }
+  header nav ul li:hover a {
     text-decoration: underline;
-}
-
-
-
-.change_langue{
+  }
+  
+  .change_langue {
     border: none;
     background: none;
     cursor: pointer;
-}
-/*.change_langue:hover{
-
-    border: 1px solid violet;
-    
-
-}*/
-main{
-    margin: 24px 0;
-}
-main.benner{
+  }
+  /* .change_language:hover {
+      border: 1px solid orchid;
+      border-radius: 8px;
+  } */
+  
+  /* Main */
+  main {
+    margin: 28px 0;
+  }
+  main > .banner {
     display: flex;
     align-items: center;
     justify-content: space-between;
-}
-
-.benner > h1{
-font-size: 44px;
-font-weight: bold;
-}
-.benner .summary{
+  }
+  
+  .banner h1 {
+    font-size: 44px;
+    font-weight: bold;
+    line-height: 1.2;
+  }
+  
+  .banner .summary {
     margin: 25px 0;
-    
-
-}
-.benner{
-  text-decoration: none;
-  background-color: blueviolet; 
-  padding: 12px 20px;
-  color: aliceblue;
-  border-radius: 8px;
-  font-weight: 500;
-  height: 47px;
-  display: block;
-}
-.benner img{
-
-}
-main .compate{
+    line-height: 1.5;
+  }
+  
+  .banner a {
+    text-decoration: none;
+    background-color: #ff6464;
+    padding: 12px 20px;
+    color: #fff;
+    border-radius: 8px;
+    font-weight: 500;
+    display: block;
+    width: fit-content;
+  }
+  
+  .banner img {
+    border-radius: 100%;
+    max-width: 40%;
+  }
+  
+  .banner .infomation {
+    max-width: 60%;
+  }
+  
+  main .company {
     margin: 28px 0;
-}
-main h2{
+  }
+  
+  main h2 {
     font-size: 26px;
-    font-size: bold;
-}
-main .conten{
-    background: #EDD;
+    font-weight: bold;
+  }
+  
+  main .content {
+    background: #edf7fa;
     max-width: 100%;
     padding: 50px;
+    border-radius: 20px;
     display: flex;
     justify-content: space-between;
+    margin-top: 16px;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .project span {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+  
+  .project span p {
+    font-weight: bold;
+    font-size: 30px;
+  }
+  
+  footer {
+    padding: 42px 0;
+  }
+  
+  footer .social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    margin-bottom: 20px;
     
-
-}
+  }
+  footer .copyright {
+    text-align: center;
+  }
+ 
