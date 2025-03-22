@@ -1,11 +1,12 @@
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
-    <link rel="stylesheet" href="./goobal.css" />
-    <link rel="stylesheet" href="./stle.css" />
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -21,18 +22,17 @@
     <header>
       <nav>
         <ul>
-          <li><a href="projects">Home</a></li>
-          <li><a href="projects">Projects</a></li>
-          <li><a href="skills">Skills</a></li>
-          <li><a href="contact">Contact</a></li>
+          <li><a id="home" href="/">Home</a></li>
+          <li><a id="project" href="/projects">Projects</a></li>
+          <li><a id="skills" href="/skills">Skills</a></li>
+          <li><a id="contact" href="/contact">Contact</a></li>
           <li>
-            <button class="change_language">
-              <img src="./assets/eng_logo.svg" alt="" />
-
+            <button class="change_language" onclick="changeLanguage()">
+              <img width="24" height="24" src="./img/co-anh.png" alt="" />
             </button>
           </li>
         </ul>
-      </nav>
+      </nav>  
     </header>
 
     <!-- End Header -->
@@ -56,7 +56,7 @@
             drive business success. Let’s connect and collaborate!
           </p>
 
-          <a href="" download="">Download Resume</a>
+          <a href="./assets/my-cv.pdf" download="">Download Resume</a>
         </div>
         <img
           src="./img/anhngokiet.jpg"
@@ -71,12 +71,12 @@
         <h2>Companies</h2>
 
         <div class="content">
-          <img src="./img/anhngokiet.jpg" alt="ngokiet" width="150" height="150"/>
-          <img src="./img/anhngokiet.jpg" alt="ngokiet"width="150" height="150" />
+          <img src="./img/anhngokiet.jpg" alt="mholding" width="100" height="100"/>
+          <img src="./img/anhngokiet.jpg" alt="slitigenz" width="100" height="100" />
           <img
             src="./img/anhngokiet.jpg"
-            alt="ngokiet"width="150" height="150"/>
-          <img src="./img/anhngokiet.jpg" alt="coffeeHR"width="150" height="150" />
+            alt="misa" width="100" height="100"  />
+          <img src="./img/anhngokiet.jpg" alt="coffeeHR" width="100" height="100" />
         </div>
       </section>
       <section class="project">
@@ -110,10 +110,11 @@
     <footer>
       <div class="social">
         <img src="./img/logofakebook.jpg" alt="Facebook" width="50" height="50">
-        <img src="./img/logoinlink.png" alt="Linkedin"width="50" height="50">
+        <img src="./img/logoinlink.png" alt="Linkedin" width="50" height="50">
       </div>
       <p class="copyright">Copyright ©2025 All rights reserved</p>
     </footer>
     <!-- End Footer -->
   </body>
 </html>
+<script src="./main.js"></script>
